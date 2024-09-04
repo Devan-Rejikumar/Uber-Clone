@@ -1,0 +1,607 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Uber Move Text', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.left-section-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 350px;
+    margin-left: 50px;
+    align-items: center;
+    
+}
+.left-section-top li{
+    list-style-type: none;
+    
+}
+.right-section-top{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    width:300px;
+    align-items: center;
+    margin-right: 50px;
+}
+.right-section-top li{
+    list-style-type: none;
+}
+
+
+
+.Uber{
+    font-size: 25px;
+    
+    /* font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.uber-font{
+    /* font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    
+    
+}
+
+.uber-font-help:hover{
+    background-color: gray;
+}
+
+.uber-font:hover{
+    background-color: grey
+}
+.uber-font-sign{
+    
+    height: 35px;
+    width: 70px;
+    background-color: rgb(247, 241, 241);
+    border-radius: 30px;
+    /* font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-weight: 500;
+    border: 0;
+    
+}
+/* -----------------First Section------------- */
+.mid-section{
+    background-color: black;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.mid-left-text{
+    height:400px;
+    width: 500px;
+    background-color: black;
+    margin-left: 60px;
+    margin-top: 222px;
+    color: white;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.hope{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+}
+.Go{
+    /* font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 50px;
+    /* color: white; */
+}
+.location{
+    width: 400px;
+    height: 110px;
+    /* background-color: black; */
+}
+.loc-text{
+    border: 0;
+    width: 350px;
+    height: 50px;
+    padding: 12px;
+    /* margin-left: 24px; */
+    outline: 0;
+    /* border-radius: 10px; */
+    background-color: #F3F3F3;
+    
+}
+.loc{
+    width: 400px;
+    height: 55px;
+    background-color: #F3F3F3;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    display: flex;
+
+}
+.dark-circle{
+    background-color: black;
+    border-radius: 10px;
+    font-size: 2px;
+    height: 5px;
+    width:5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    
+}
+.telegram-icon{
+    color: black;
+    width: 30px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.loc-2{
+    width: 400px;
+    height: 55px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    margin-top: -12px;
+    /* font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    display: flex;
+}
+.Image-size{
+    width: 550px;
+    height: 100vh;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.see-prices{
+    width: 120px;
+    height: 50px;
+    background-color: #F3F3F3;
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 12px;
+
+  
+   
+   
+}
+.see-prices a{
+    text-decoration: none;
+   
+
+    
+    
+}
+
+/* ---------------------Second Section----------------- */
+.section-2{
+    background-color: white;
+    height: 350x;
+    width: 100%;
+    padding-top: 50px;
+}
+.suggestion-container{
+    /* background-color: brown; */
+    height: 300px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: space-around; */
+    gap: 20px;
+    margin-left: 80px;
+   
+   
+}
+.suggestion{
+    position: absolute;
+    top:10px;
+    font-size: 36px;
+    
+}
+.ride{
+    background-color: #F3F2F2;
+    height: 150px;
+    width: 40%;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.reserve{
+    /* background-color: hotpink; */
+    height: 150px;
+    width: 40%;
+    display: flex;
+    border-radius: 10px;
+    background-color: #F3F2F2;
+}
+.ride-text{
+    /* background-color: grey; */
+    height: 120px;
+    width: 70%;
+   padding-top: 20px;
+}
+.ride-img img{
+    width: 140px;
+}
+.R-1{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+.R-2{
+    font-size: 12px;
+    margin-left: 15px;
+    
+}
+.details-btn{
+    padding: 8px;
+    width: 70px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #FEFEFF;
+}
+.details-btn:hover{
+    background-color: rgb(212, 197, 197);
+}
+/* ---------------Third Section------------ */
+.section-3{
+    /* background-color: blue; */
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+.section-3-left{
+    background-color: red;
+    height: 550px;
+    width: 45%;
+    /* background-image: url("Image-2.webp"); */
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.section-3-left img{
+    width: 100%;
+}
+
+.section-3-right{
+    /* background-color: chartreuse; */
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    /* align-content: center; */
+    
+    
+}
+.section-3-right-text{
+    text-align: start;
+    padding-left: 20%;
+}
+.section-3-right-text h1{
+    font-size: 50px;
+    padding-top: 20%;
+    padding-bottom: 20px;
+    /* font-family: sans-serif; */
+}
+.section-right-bottom-seperator{
+    display: flex;
+    gap: 10px;
+}
+.section-3-right-btn{
+    /* background-color: aqua; */
+    height: 100px;
+    width: 200px;
+    padding-top: 20px;
+    margin-left: 73px;
+    padding-left: 20px;
+}
+.get-started{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+.section-3-right-input{
+    /* background-color: coral; */
+    height: 100px;
+    width: 265px;
+    padding-top: 30px;
+}
+.section-3-right-sign-in{
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    
+}
+/* -------------Section-4------------ */
+.section-4{
+    /* background-color: cornflowerblue; */
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+.section-4-left-text{
+    
+    padding-left: 50px;
+}
+.section-4-left-text h1{
+    font-size: 50px;
+    padding-top: 100px;
+}
+.section-4-left-text p{
+    padding-top: 30px;
+}
+.section-left-bottom-seperator{
+    display: flex;
+    gap: 10px;
+}
+.section-4-left-btn{
+    /* background-color: aqua; */
+    height: 100px;
+    width: 200px;
+    padding-top: 20px;
+    margin-left: 27px;
+    padding-left: 20px;
+}
+.section-4-left-input{
+    /* background-color: coral; */
+    height: 100px;
+    width: 265px;
+    padding-top: 30px;
+}
+.section-4-left-sign-in{
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    /* border-bottom: 1px solid grey; */
+    outline: none;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    
+}
+.section-4-right{
+    /* background-color: red; */
+    height: 550px;
+    width: 45%;
+    /* background-image: url("Image-2.webp"); */
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.section-4-right img{
+width: 600px;
+padding-left: 40px;
+margin-left: 50px;
+    
+}
+
+
+/* ----------------Section-5-------------- */
+.section-5{
+   /* background-color: red;  */
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+/* --------------Section 6 -------- */
+.section-6{
+background-color: #F7F6F7;
+height: 400px;
+width: 100%;
+
+}
+.scan-text{
+    padding: 60px 0 30px 40px;
+}
+.uber-scan{
+    display: flex;
+    gap: 40px;
+   
+
+}
+.uber-app{
+    background-color: white;
+    height: 200px;
+    width: 50%;
+    margin-left: 40px;
+    display: flex;
+    align-content: center;
+    
+ 
+}
+.uber-app img{
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    
+}
+.uber-app h1{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 13%;
+    
+    
+}
+.uber-app-txt p{
+    padding-left: 30px;
+}
+.uber-app-txt{
+    padding-top: 40px;
+}
+.driver-app{
+    background-color: white;
+    height: 200px;
+    width: 50%;
+    margin-right: 40px;
+    display: flex;
+}
+.driver-app img{
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.uber-scan h1{
+    font-size: 20px;
+}
+.driver-app-txt{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+/* ------------Footer-------------- */
+footer{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 55px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    /* font-size: 25px; */
+    display: block;
+    
+}
+.footer-1 a h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+footer a span{
+    font-size: 15px;
+   
+}
+.footer-1{
+    /* background-color: aqua; */
+    height: 100px;
+    width: 140px;
+    margin-bottom: 100px;
+   
+   
+}
+.footer-4-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 5%;
+    /* background-color: white; */
+    height: 300px;
+
+    width: 100%;
+}
+.Company, .Products, .Global-citi, .Travel{
+    /* background-color: brown; */
+    width: 250px;
+    font-size: 14px;
+    line-height: 20px;
+ 
+}
+.footer-heading{
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.footer-4-div a{
+    margin-bottom: 18px;
+}
+.footer-1 h1{
+    margin-bottom: 20px;
+}
+.footer-4{
+    /* background-color: red; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-icons{
+    background-color: black;
+    height: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F3F2F2;
+    margin-top: 20px;
+
+
+
+}
+.footer-location{
+    /* background-color: violet; */
+    height: 50px;
+    width: 40%;
+    margin-top: 20px;
+    color: white;
+    padding-left: 20%;
+   padding-top: 10px;
+    
+}
+
+.style{
+    font-family: 'Uber Move Text', sans-serif;
+    padding-right: 15px;
+    font-size: 15px;
+}
+.footer-5{
+    /* background-color: darkkhaki; */
+    width: 30%;
+    height: 120px;
+    padding-top: 20px;
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+.google-play img{
+    width: 150px;
+    margin-right: 10px;
+}
+.apple-play img{
+    width: 140px;
+}
+.copy{
+    color: #f3f2f1;
+    font-size: 12px;
+}
+.terms a{
+    display: inline;
+    margin-right: 20px;
+    /* background-color: rgb(78, 47, 7); */
+    font-size: 12px;
+}
+.footer-6{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+    padding-right: 40px;
+}
